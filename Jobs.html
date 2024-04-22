@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Jacquarda+Bastarda+9&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <script src="Script.js"></script>
+</head>
+<body>
+  <image id="polygon" alt=" " style="width:10vw; mask-image: linear-gradient(black 70%, transparent); scale:4; top:300px; left:1300px; z-index:7; position:fixed; clip-path: polygon(5% 10% ,100% 10% ,100% 100% ,20% 100%);" src="Images/office.jpg"></image>
+    <div id="title" class="Title; white-text">Hot Beans Web</div>
+    <div class="logo">
+      <img style="position:absolute; left:-0.2vw;top:-0.3vw; height:3vw;" src="Images/logo.png" alt="Logo">
+    </div>
+    <button onclick="link()" style="position:absolute; height:2vw; width:10vw; border-style: none; background-color: transparent;"></button>
+    <img style="height:13vw; top:30vw; left:2vw; position:absolute;" src="Images/dev_team.jpg" alt="name">
+    <img style="height:13vw; top:52vw; left:2vw; position:absolute;" src="Images/stock_person_7.jpg" alt="name">
+    <div id="bx" class="triangle"></div>
+    <div style="top:0;" class="menu" id="bar">
+      <button style="left:52vw;" class="redirect" onclick="link1()">Home</button>
+      <button style="left:64vw;" class="redirect" onclick="link2()">Meet The Team</button>
+      <button style="left:76vw; background-color: rgb(143, 10, 19);" class="redirect" onclick="link3()">Job Vacancies</button>
+      <button style="left:88vw;" class="redirect" onclick="link4()">About Us</button>
+      <div class="dec"></div>
+      <div class="dec" style="z-index:0; height:40px; background-color:rgb(174, 27, 41);"></div>
+      <button id="opener" style="width:2vw; padding:0vw; left:92vw; top:120px; scale:5;" class="redirect" onclick="menu()">▲</button>
+    </div>
+    <div class="Subtitle">Are You Looking for a Job in Web Development?</div>
+    <div style="left:23vw; width:30vw; top:30vw; font-size:1.5vw; line-height:1.5vw;" class="Text_body_1">
+      If you're looking to work in website development this is the place to look we offer many courses and are always open to increasing our developer and design teams, we have experience training new developers and can boost your carreer in the rigth direction, our appretiship course will help you learn how to cater to client requests and help you design and create websites for others, we pay 25k a year but only have limited spaces available, while on our appretiship you will attend the university of Birmingham and study Website development, we alos have some openings for established developers who are looking to join our team, see below, we expect a degree in a computer science adjacent degree and at least one year of expernece for a junior develper and three years of experince and a portfoloio of websites you have designed for senior developers, salerys are listed below but are subject to negotiations
+    </div>
+    <div style="line-height:20px; background-color: rgb(174, 27, 41); font-family: Josefin Sans, sans-serif; color:black; text-align:center; width:100vw; padding:10px; border-style:none; border-width:2px; position:absolute; left:0vw; top:66vw;">
+    <div style="line-height: 1.1vw; font-size: 1.1vw; font-family: 'Trebuchet MS' sans-serif; font-weight: bold; color: white; position: absolute; width:15vw; "><h3>Openings:</h3>Senior Web Developer - London Office - £45k/Year<br>-<br>Senior Web Developer - Work From Home - £43k/Year<br>-<br>Junior Web Developer - London Office - £30k/Year<br>-<br>Junior Web Developer - Liverpool Office - £30k/Year<br></div>
+    <div id="thx" style="font-size: medium;">
+    </div>
+      <div id="terms" class="element">
+        <h2>Apply Online</h2>
+        </br>
+            <label for="name">Name:</label>
+        </br>
+            <input class="input" type="text" name="name" id="nmi" value="" />
+        </br>
+            <label for="pass">Email Address</label>
+        </br>
+            <input class="input" type="email" name="email" id="emi" value="" />
+        </br>
+        <label for="name">Applying For:</label>
+      </br>
+            <input type="radio" 	
+                id="Radio1" 
+                name="RadioGroup"/> 
+                <label>L3 Apprentiship</label></br>
+            <input type="radio" 
+                id="Radio2" 
+                name="RadioGroup"/> 
+                <label>Junior Developer</label></br>
+            <input type="radio" 
+                id="Radio3" 
+                name="RadioGroup"/> 
+                <label>Senior Developer</label></br>
+            <button style="background-color:white;" onclick="submit()">Submit</button> 
+            </br>
+            </br>
+    </div>
+  </div>
+  </body>

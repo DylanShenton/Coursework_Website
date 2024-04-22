@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Jacquarda+Bastarda+9&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <script src="Script.js"></script>
+</head>
+<body>
+    <image id="polygon" alt=" " style="width:100px; mask-image: linear-gradient(black 80%, transparent); scale:4; top:300px; left:1250px; z-index:7; position:fixed; clip-path: polygon(5% 10% ,100% 10% ,100% 100% ,20% 100%);" src="Images/dev_team.jpg"></image>    
+    <div id="title" class="Title; white-text">Hot Beans Web</div>
+    <div class="logo">
+      <img style="position:absolute; left:-0.2vw;top:-0.3vw; height:3vw;" src="Images/logo.png" alt="Logo">
+    </div>
+    <button onclick="link()" style="position:absolute; height:2vw; width:15vw; border-style: none; background-color: transparent;"></button>
+    <div style="left:80%;" id="bx" class="Box"></div>
+    <div style="top:0;" class="menu" id="bar">
+      <button style="left:52vw;" class="redirect" onclick="link1()">Home</button>
+      <button style="left:64vw;" class="redirect" onclick="link2()">Meet The Team</button>
+      <button style="left:76vw;" class="redirect" onclick="link3()">Job Vacancies</button>
+      <button style="left:88vw; background-color: rgb(143, 10, 19);" class="redirect" onclick="link4()">About Us</button>
+      <div class="dec"></div>
+      <div class="dec" style="z-index:0; height:40px; background-color:rgb(174, 27, 41);"></div>
+      <button id="opener" style="width:2vw; padding:0vw; left:92vw; top:120px; scale:5;" class="redirect" onclick="menu()">▲</button>
+    </div>
+    <div class="Subtitle">About Us</div>
+    <div  style="line-height: 1.4vw; font-size: 1.5vw; top:17vw;"class="Text_body_1">
+      HotBeans Web was founded by Jhon Smith in 2015 and since has worked on hundreds of websites in order to give clients the best possible chance in this new computer age. 
+      We are currently increasing our workforce especially in out developer and designer teams, see our jobs page, below you will find courses we would like any aspiring web developers to be familiar with, for anyone who wants to get into web develoment we reccoment learning html, css and javascript via the courses below</div>
+<div style="position:absolute; top:40vw;">
+    <a href="https://www.youtube.com/watch?v=FQdaUv95mR8"><img style="width:100px" src="Images/tut_1.jpg" alt="Logo"></a>
+    <p style="line-height: 1.4vw; font-size: 1.5vw; height:35px; top:0px; position: relative;" class="Text_body_1">For Learning HTML we recommend the above tutotial, it has all the important information that we require and presents it well</p>
+  </br>
+    <a href="https://www.youtube.com/watch?v=0W6q%20z0-aDaM"><img style="width:100px" src="Images/tut_2.jpg" alt="Logo"></a> 
+    <p style="line-height: 1.4vw; font-size: 1.5vw; height:35px; top:0px; position: relative;" class="Text_body_1">For Learning CSS we recommend the above tutotial, it has great detail about how best to use teh language that will be important </br>for any aspiring web dev</p> 
+  </br>
+    <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk"><img style="width:100px" src="Images/tut_3.jpg" alt="Logo"></a>  
+    <p style="line-height: 1.4vw; font-size: 1.5vw; height:35px; top:0px; position: relative;" class="Text_body_1">For Learning javascript whe recommend the above tutotial, it provides a good undsertending of the baisics of the language in order </br>to allow web developers to start creating their first javascript programs</p>
+  </div>
+</body>

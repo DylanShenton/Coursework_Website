@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background-color: rgb(255, 255, 255);
+}
+.Box{
+    /* background-image: url("placeholder.jpg"); */
+    padding-right:50vw;
+    padding-top: 100vw;
+    top:-500px;
+    z-index: 2;
+    position:fixed;
+    left: 90%;
+    text-align: center;
+    width: 10vw;
+    height: 100vw;
+    background-color:rgb(174, 27, 41);
+    rotate: -10deg; 
+    /* box-shadow: 0 0 5px rgb(0, 0, 0); */
+}
+.Title{
+    color: black;
+    z-index: 70;
+    position: absolute;
+    top: 5px;
+    left: 0vw;
+    text-align: left;
+    width: 20vw;
+    height: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+.white-text {
+    color: white;
+    z-index: 70;
+    position: absolute;
+    top: 5px;
+    left: 0vw;
+    text-align: left;
+    width: 20vw;
+    height: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+#title {
+    transition: color 1s;
+}
+.logo{
+    z-index:70;
+    position: absolute;
+    width:1.7vw;
+    height:2.7vw;
+    left: 15vw;
+    top: 0.1vw;
+    border-style: none;
+    border-radius: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 0.7vw;
+}
+.Subtitle{
+    z-index: 1;
+    position: absolute;
+    top: 10vw;
+    left: 3vw;
+    text-align: left;
+    width: 60vw;
+    height: 3vw;
+    font-size: 6vw;
+    font-weight:bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Text_body_1{
+    line-height:3vh;
+    /* margin-bottom:30vw; */
+    z-index: 1;
+    position: absolute;
+    top: 25vw;
+    left: 3vw;
+    text-align: left;
+    width: 60vw;
+    height: 3vw;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: "Josefin Sans", sans-serif;
+    /* padding:50px; */
+}
+.redirect{
+    /* backdrop-filter: contrast(0.5); */
+    z-index:3;
+    width:7.1vw;
+    /* top: 0.5vw; */
+    color: white;
+    background-color:rgba(174, 27, 42, 0);
+    border-style:none;
+    border-radius: 5%;
+    position: absolute;
+    scale: 1.5;
+    font-weight:bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding:0.34vw;
+    font-size: 1vw;
+}
+
+.menu{
+    position:absolute;
+    top: -80px;
+    z-index:8;
+}
+#bar{
+    transition: top 0.5s;
+}
+
+.dec{
+    z-index:1;
+    left:72vw;
+    top: -0.6vw;
+    height:0.3vw;
+    width:1000vw;
+    /* 89 */
+    color: white;
+    border-style:none;
+    border-radius: 2%;
+    position: absolute;
+    scale: 1.5;
+    font-weight:bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding:0.35vw;
+    background-color: rgb(143, 10, 19);
+}
+polygon {
+    stroke-width: 8px;
+    stroke:rgb(0, 0, 0);
+    /* fill: ; */
+    z-index: 7;
+    position:fixed;
+    /* mask-image:url("placeholder.jpg"); */
+}
+.cont {
+    top:100px;
+    width: 400px;
+    position: absolute;
+    /* left:50%; */
+    text-align: center;
+  }
+.switch {
+    font-family: "Josefin Sans", sans-serif;
+    backdrop-filter: contrast(0.5);
+    z-index: 100;
+    border-radius:10%; 
+    padding:15px; 
+    border-style:none; 
+    user-select: none; 
+    position:absolute; 
+    top:6vw;
+    color:white;
+}
+.switch:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+#color {
+    transition: scale 1s, background-color 1s;
+}
+.item {
+    /* width:300px; */
+    height: 40vh;
+    position:absolute;
+}
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9 {
+    transition: scale 1s, height 1s, left 0.5s, top 0.5s, opacity 0.5s;
+}
+.input{
+    border-style:solid;
+    border-color:black;
+    border-radius:1%;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.triangle {
+    position:fixed;
+    left:60%;
+    top:-50px;
+    scale:15;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 1000px solid rgb(174, 27, 41);
+}
